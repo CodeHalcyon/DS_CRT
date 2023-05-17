@@ -5,6 +5,7 @@ struct Node
     int data;
     struct Node *next;
 };
+struct Node *bs;
 struct Node *head = NULL, *tail = NULL, *temp;
 void InsertAtBegin(int data)
 {
